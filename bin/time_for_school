@@ -26,4 +26,4 @@ jim.learn(some_knowledge)
 
 steve.learn(some_knowledge)
 
-puts Student
+puts Student.all.collect {|student| student.knowledge}
