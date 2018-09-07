@@ -22,8 +22,10 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' fr
 jim = Student.new
 jim.first_name = "Jim"
 jim.last_name = "Crow"
-jim.learn(some_knowledge)
+jim.learn(avi.teach)
+jim.knowledge
 
 steve.learn(some_knowledge)
+steve.knowledge.last
 
 puts Student.all.collect {|student| student.knowledge}
