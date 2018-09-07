@@ -25,7 +25,7 @@ jim.last_name = "Crow"
 jim.learn(avi.teach)
 jim.knowledge
 
-steve.learn(some_knowledge)
+steve.learn(avi.teach)
 steve.knowledge.last
 
 puts Student.all.collect {|student| student.knowledge}
