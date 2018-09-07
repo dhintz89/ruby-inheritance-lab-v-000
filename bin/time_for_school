@@ -28,4 +28,4 @@ puts "Jim just learned this important knowledge: '#{jim.knowledge.first}' from A
 steve.learn(avi.teach)
 steve.knowledge.last
 
-puts Student.all
+puts Student.all.each {|student| puts student.first_name}
