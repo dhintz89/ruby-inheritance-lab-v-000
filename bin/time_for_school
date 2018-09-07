@@ -19,6 +19,11 @@ steve.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
-jim = User.new
+jim = student.new
 jim.first_name = "Jim"
 jim.last_name = "Crow"
+jim.learn(some_knowledge)
+
+steve.learn(some_knowledge)
+
+puts Student
