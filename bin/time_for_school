@@ -28,4 +28,4 @@ puts "Jim just learned this important knowledge: '#{jim.knowledge.first}' from A
 steve.learn(avi.teach)
 steve.knowledge.last
 
-puts Student.all.collect {|student| student.knowledge}
+Student.all.collect {|student| student.knowledge}
